@@ -1,0 +1,95 @@
+/* global styles */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Home page */
+.wrapper {
+  padding: 0 20px;
+}
+
+/* Header component */
+.header {
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  background: teal;
+  align-items: center;
+}
+
+.link {
+  color: white;
+  font-weight: bold;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: yellow;
+}
+
+/* Create Order Form */
+.sandwich-item {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.sandwich-item div {
+  width: 100%;
+}
+.item-price {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* List Orders component */
+.order-item {
+  border-radius: 3px;
+  background: lightcyan;
+  padding: 0px 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-price {
+  font-weight: bold;
+}
+
+/* Badge component */
+.badge {
+  font-size: 11px;
+  font-weight: bold;
+  background: green;
+  border-radius: 4px;
+  padding: 3px 6px;
+  color: white;
+}
+
+.badge.badge-picked {
+  background: blue;
+}
+
+/* Notification component */
+.alert {
+  position: absolute;
+  font-size: 13px;
+  top: 60px;
+  right: 10px;
+  background: green;
+  max-width: 200px;
+  padding: 7px 15px;
+  border-radius: 4px;
+  color: white;
+}
+
+.alert-warning {
+  background: orange;
+}
+
+.alert-error {
+  background: red;
+}
